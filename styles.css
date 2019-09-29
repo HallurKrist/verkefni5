@@ -1,0 +1,96 @@
+/* Gefið */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 20px;
+}
+
+/* Texti */
+h2{
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+p{
+  font-size: 1em;
+  line-height: 1.25em;
+}
+
+p, h2{
+  word-break: break-word;
+}
+
+/* Kort */
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  /* stilla uppsetningu */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow: auto;
+  /* stilla stærð */
+  max-width: 29.375em;
+  max-height: 20em; 
+  padding: 10px;
+  margin-bottom: 0.625em;
+  /* bakgrunnur */
+  background-color: #fff;
+  /* rammi */
+  border: 2px solid #aaa;
+  border-radius: 5px;
+}
+
+/* innhald korta, utantekið fyrirsagnar */
+.card_info{
+  display: flex;
+}
+
+/* mynd */
+img{
+  width: 9.375em;
+  padding-right: 1.25em;
+}
+
+/* röðun */
+.heavy{
+  order: -1;
+}
+
+/*  */
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin-right: 1em;
+  font-weight: bold;
+}
+
